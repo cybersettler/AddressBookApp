@@ -1,0 +1,27 @@
+{
+  "generator-websemble": {
+    "appname": "TestApp",
+    "description": "This is a test",
+    "structure": {
+      "webapp": "src/main/webapp/",
+      "backend": {
+        "model": "src/main/backend/model/",
+        "view": "src/main/backend/view/",
+        "controller": "src/main/backend/controller/",
+        "util": "src/main/backend/util/"
+      },
+      "frontend": {
+        "assets": "src/main/webapp/frontend/assets/",
+        "controller": "src/main/webapp/frontend/controller/",
+        "factory": "src/main/webapp/frontend/factory/",
+        "service": "src/main/webapp/frontend/service/",
+        "util": "src/main/webapp/frontend/util/",
+        "config": "src/main/webapp/frontend/config/"
+      },
+      "less": "src/main/less/",
+      "template": "src/main/template/",
+      "jasmine": "src/test/jasmine/",
+      "component": "src/main/component/"
+    }
+  }
+}

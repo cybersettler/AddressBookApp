@@ -1,0 +1,16 @@
+<template class="main">
+  <ui-button data-href="view/index">Back to index</ui-button>
+  <h1>New Contact</h1>
+  <ui-form data-model="->f()"
+    data-schema="/contacts/schema" data-display="->f()"
+    data-method="->f()" data-action="->f()"
+    data-success="->f()" data-error="->f()">
+    <button type="submit" class="btn btn-default">{{i18n 'action.submit'}}</button>
+  </ui-form>
+</template>
+
+<script>
+    (function(window, document, undefined) {
+      require("websemble").frontend.createComponent('view-contact');
+    })(window, document);
+</script>

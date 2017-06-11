@@ -1,0 +1,13 @@
+<template class="main">
+  <h1>Index</h1>
+  <ui-button data-href="view/contact/new">Add contact</ui-button>
+  <ui-table data-model="/contacts"
+    data-schema="/contacts/schema"
+    data-display="->f()"></ui-table>
+</template>
+
+<script>
+    (function(window, document, undefined) {
+      require( "websemble" ).frontend.createComponent( 'view-index' );
+    })(window, document);
+</script>

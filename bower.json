@@ -1,0 +1,27 @@
+{
+  "name": "TestApp-buildscript",
+  "description": "Buildscript",
+  "main": [
+    "gulpfile.js"
+  ],
+  "authors": [
+    "Javier escobar <cybersettler@babylonone.com>"
+  ],
+  "license": "Apache2.0",
+  "keywords": [
+    "websemble"
+  ],
+  "homepage": "www.babylonone.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "uiButton": "cybersettler/uiButton",
+    "uiForm": "cybersettler/uiForm",
+    "uiTable": "cybersettler/uiTable"
+  }
+}

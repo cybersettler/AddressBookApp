@@ -1,0 +1,10 @@
+{
+  "contact": {
+    "firstName": "First Name",
+    "lastName":"Last name",
+    "birthday": "Birthday"
+  },
+  "action": {
+    "submit": "Submit"
+  }
+}

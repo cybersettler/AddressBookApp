@@ -1,0 +1,24 @@
+{
+	"title": "Example Schema",
+	"type": "object",
+	"properties": {
+		"firstname": {
+			"title": "First name",
+			"type": "string"
+		},
+		"lastname": {
+			"title": "Last name",
+			"type": "string"
+		},
+		"birthday": {
+			"title": "Birthday",
+			"type": "string",
+      "pattern": "^\\d\\d\\/\\d\\d\\/\\d\\d\\d\\d$"
+		},
+		"agreement": {
+			"type": "boolean",
+			"description": "I agree"
+		}
+	},
+	"required": ["firstname", "lastname"]
+}
