@@ -1,9 +1,16 @@
 <template class="main">
-  <h1>Index</h1>
-  <ui-button data-href="view/contact/new">Add contact</ui-button>
-  <ui-table data-model="/contacts"
-    data-schema="/contacts/schema"
-    data-display="->f()"></ui-table>
+  <ui-panel>
+    <div class="panel-heading">
+      <h1>Index</h1>
+      <ui-button data-href="view/contact/new">Add contact</ui-button>
+    </div>
+    <div class="panel-body">
+      <p>Contact list</p>
+    </div>
+    <ui-table data-model="/contacts"
+              data-schema="/contacts/schema"
+              data-display="->f()"></ui-table>
+  </ui-panel>
 </template>
 
 <script>

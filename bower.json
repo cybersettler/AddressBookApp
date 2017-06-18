@@ -22,6 +22,7 @@
   "dependencies": {
     "uiButton": "cybersettler/uiButton",
     "uiForm": "cybersettler/uiForm",
-    "uiTable": "cybersettler/uiTable"
+    "uiTable": "cybersettler/uiTable",
+    "uiPanel": "cybersettler/uiPanel"
   }
 }
